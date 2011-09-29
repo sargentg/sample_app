@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe PagesController do
+describe Page0sController do
   render_views
 
   describe "GET 'home'" do
