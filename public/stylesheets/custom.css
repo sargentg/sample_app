@@ -38,8 +38,8 @@ a:hover {
 	text-decoration: underline;
 }
 
-/* Navigation */
-/*  remove following open comment to style the menu */ 
+/* navigation */
+/* remove following open comment to style the menu */ 
 nav {
 	float: right;
 }
@@ -99,4 +99,14 @@ a.signup_button {
 	border-radius: 			10px;
 }
 
+footer {
+	text-align: center;
+	margin-top: 10px;
+	width: 710px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+footer nav {
+	float: none;
+}
