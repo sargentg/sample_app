@@ -8,4 +8,9 @@ module ApplicationHelper
       "#{base_title} | #{@title}"
     end
   end
+  
+  # Return the logo image to be displayed at the top of the page
+  def logo
+    image_tag("logo.png", :alt => "Sample App", :class => "round")
+  end
 end
